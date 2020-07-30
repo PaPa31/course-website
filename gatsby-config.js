@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Course",
-    subtitle: "For making great content",
+    title: "Fucking Gatsby Starter Course",
+    subtitle: "From idiots who can't teach",
     description:
       "This is the description that will show up when people share as well as on search engines",
     keywords: [
