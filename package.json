@@ -35,6 +35,7 @@
   "license": "(CC-BY-NC-4.0 OR Apache-2.0)",
   "main": "n/a",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build --prefix-paths",
     "csv": "node csv.js",
     "dev": "gatsby develop",
