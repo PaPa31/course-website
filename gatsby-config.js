@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Fucking Gatsby Starter Course",
+    title: "Gatsby Starter Course",
     subtitle: "From idiots who can't teach",
     description:
       "This is the description that will show up when people share as well as on search engines",
@@ -8,8 +8,8 @@ module.exports = {
       "this is",
       "a list of keywords and phrase",
       "that search engines",
-      "will index your page for"
-    ]
+      "will index your page for",
+    ],
   },
   pathPrefix: "/course-website", // if you're using GitHub Pages, put the name of the repo here with a leading slash
   plugins: [
@@ -18,8 +18,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/lessons`,
-        name: "markdown-pages"
-      }
+        name: "markdown-pages",
+      },
     },
     `gatsby-plugin-react-helmet`,
     {
@@ -34,11 +34,11 @@ module.exports = {
             options: {
               maxWidth: 800,
               linkImagesToOriginal: true,
-              sizeByPixelDensity: false
-            }
-          }
-        ]
-      }
-    }
-  ]
+              sizeByPixelDensity: false,
+            },
+          },
+        ],
+      },
+    },
+  ],
 };
