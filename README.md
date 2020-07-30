@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/papa31/course-website/_apis/build/status/PaPa31.course-website?branchName=master)](https://dev.azure.com/papa31/course-website/_build/latest?definitionId=4&branchName=master)
+[![Build Status](https://dev.azure.com/papa31/course-website/_apis/build/status/PaPa31.course-website?branchName=source)](https://dev.azure.com/papa31/course-website/_build/latest?definitionId=6&branchName=source)
 
 <h1 align="center">gatsby-course-starter</h1> <br>
 
