@@ -35,7 +35,7 @@
   "license": "(CC-BY-NC-4.0 OR Apache-2.0)",
   "main": "n/a",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://ea86cd286550c8823659bddd374d41f462ba1477@github.com/PaPa31/course-website.git",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build --prefix-paths",
     "csv": "node csv.js",
     "dev": "gatsby develop",
